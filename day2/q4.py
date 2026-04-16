@@ -57,9 +57,9 @@ def process_student(student_no):
 # MAIN PROGRAM
 # -------------------------------
 # Store all students' marks
-all_marks = []
+
 
 # Loop through each student
 for i in range(1, NUMBER_STUDENTS + 1):
     marks = process_student(i)
-    all_marks.append(marks)
+    
